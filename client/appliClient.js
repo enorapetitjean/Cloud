@@ -1,6 +1,6 @@
 const request = require('request');
 const idJoueur = newId();
-const tps = setInterval(toServer, 10000); //nouvelle manche toutes les 10 secondes
+const tps = setInterval(toServer, 10000); //nouvelle manche générée toutes les 10 secondes
 
 //génère un id pour le joueur
 function newId() {

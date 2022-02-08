@@ -24,5 +24,7 @@ Pour le coté serveur je fais le choix d'utiliser un serveur express car c'est c
 - Pour lancer le serveur on fait la commande "sudo docker build -t server ." puis la commande "sudo docker run -d -p 3000:3000 server --name serveur1 server " en se plaçant dans le dossier serveur
 - Pour lancer un client on fait la commande "sudo docker build -t client ." puis la commande "sudo docker run -d -p 3000:3000 --name client1 client"
 
+--> l'application ne fonctionne pas car je n'ai pas eu le temps d'implémenter la partie du serveur qui est sensée pouvoir mettre à jour les informations dans l'historique, je n'ai donc pas d'historique.
+
 
 
